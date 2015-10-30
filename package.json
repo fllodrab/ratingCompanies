@@ -1,0 +1,56 @@
+{
+  "name": "ratingCompanies",
+  "version": "0.1.0",
+  "author": "Fernando Llodra Belda",
+  "description": "Ejercicio 2 del Tema 1 de la asignatura Clouc Computing del Master en Ingeniería informática",
+  "keywords": [
+    "cloud computing"
+  ],
+  "bugs": {
+    "url": "https://github.com/fllodrab/ratingCompanies/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fllodrab/ratingCompanies.git"
+  },
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/fllodrab/clases-CC-2015-16/tree/master/ejercicios/ejerciciosFernandoLlodraBelda/Tema1",
+  "main": "app.js",
+  "os": [
+    "Mac OS X"
+  ],
+  "private": false,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "express": "^3.21.2",
+    "jade": "^1.11.0",
+    "sqlite3": "^3.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "docco": "^0.7.0",
+    "grunt-docco": "^0.4.0",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3",
+    "mocha-lcov-reporter": "^1.0.0",
+    "should": "^7.1.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.11.16"
+  }
+}
