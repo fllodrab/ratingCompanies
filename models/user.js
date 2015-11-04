@@ -11,18 +11,8 @@ module.exports = function(mongoose) {
     name: String, // tipo de dato cadena de caracteres
 
     // Propiedad fecha de nacimiento
-    birthdate: Date, // tipo de dato fecha
-
-    isAdmin: Boolean // tipo de dato buleano
-
+    rate: Number, // tipo de dato calificación
   });
-
-  // metodo para calcular la edad a partir de la fecha de nacimiento
-  UserSchema.methods.age = function() {
-
-    return ~~((Date.now() - this.birthdate) / (31557600000));
-
-  }
 
   return mongoose.model('User', UserSchema);
 }

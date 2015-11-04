@@ -1,17 +1,14 @@
 // controllers/user/views/index.js
 
-h1 Nuevo Usuario
+h1 Nueva Empresa
 
 form(method="POST", action="/user")
 
-  p Nombre:
-    input(type="text" name="name")
+    p Nombre:
+        input(type="text" name="name")
 
-  p Fecha de nacimiento:
-    input(type="date" name="birthdate")
+    p Calificación
+        input(type="number" name="rate")
 
-  p ¿Es administrador?:
-    input(type="check" name="isAdmin")
-
-  p
-    button(type="submit") Enviar
+    p
+        button(type="submit") Enviar
