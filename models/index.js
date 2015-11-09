@@ -10,12 +10,9 @@ if (!global.hasOwnProperty('db')) {
 
 
   global.db = {
-
     mongoose: mongoose,
-
     //models
     User: require('./User')(mongoose),
-
     // agregar más modelos aquí en caso de haberlos
   };
 

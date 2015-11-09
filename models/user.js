@@ -6,12 +6,9 @@ module.exports = function(mongoose) {
 
   // Objeto modelo de Mongoose
   var UserSchema = new Schema({
-
     // Propiedad nombre
-    name: String, // tipo de dato cadena de caracteres
-
-    // Propiedad fecha de nacimiento
-    rate: Number, // tipo de dato calificación
+    name: String,
+    rate: Number
   });
 
   return mongoose.model('User', UserSchema);
