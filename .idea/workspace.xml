@@ -98,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.20547946">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -333,7 +333,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447174954980</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Travis CI: 2º intento de integración continua">
+      <created>1447175299260</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1447175299261</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +381,8 @@
     <MESSAGE value="Recogemos consulta de BD y volcamos los datos sobre pagina html" />
     <MESSAGE value="Documentación con Grunt y docco añadida" />
     <MESSAGE value="Travis CI Primer intento de integración continua" />
-    <option name="LAST_COMMIT_MESSAGE" value="Travis CI Primer intento de integración continua" />
+    <MESSAGE value="Travis CI: 2º intento de integración continua" />
+    <option name="LAST_COMMIT_MESSAGE" value="Travis CI: 2º intento de integración continua" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -796,7 +803,7 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20547946">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
