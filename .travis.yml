@@ -1,10 +1,7 @@
-language:	node_js
-	node_js:
-		- "0.10"
-		- "0.11"
-		- "0.11.16
-		- "5.0.0"
-	before_install:
-		- npm install -g mocha
-		- cd src
-		- npm install
+# language setting
+language: node_js
+
+# version numbers, testing against two versions of node
+node_js:
+  - "0.11.16"
+  - "5.0.0"
