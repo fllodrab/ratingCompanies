@@ -6,5 +6,5 @@ language: node_js
 	  - "5.0.0"
 	before_install:
 	  - npm install -g mocha
-	  - cd src; npm install .
-	script: cd src; mocha
+	  - cd src
+	  - npm install
